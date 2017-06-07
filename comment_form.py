@@ -2,8 +2,8 @@ from tkinter import *
 from tkinter import messagebox
 
 def display_full_name():
-    messagebox.showinfo("GUI Python", FIO.get() + " " + str(phone.get())+" "+email.get()+" "+text_box.get("1.0",END))
- 
+     messagebox.showinfo("GUI Python", " имя: "+FIO.get() + "\n телефон: " + str(phone.get())+"\n почта: "+email.get()+"\n коментарий: "+text_box.get("1.0",END)) 
+
 root = Tk()
 root.title("GUI на Python")
 root.geometry("340x250")
