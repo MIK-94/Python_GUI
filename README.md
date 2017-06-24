@@ -1,2 +1,2 @@
 # Python_GUI
-forms for python
+creating forms on python
